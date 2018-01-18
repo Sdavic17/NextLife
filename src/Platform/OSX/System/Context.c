@@ -1,9 +1,9 @@
-// Copyright (c) 2011-2016 The Cryptonote developers
+// Copyright (c) 2011-2016 The Cryptonote developers , [ ] developer
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <string.h>
-#include "context.h"
+#include "Context.h"
 
 void
 makecontext(uctx *ucp, void (*func)(void), intptr_t arg)
